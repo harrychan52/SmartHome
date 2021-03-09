@@ -1,0 +1,46 @@
+@font-face {
+  font-family: 'iconfont';  /* project id 2190622 */
+  src: url('https://at.alicdn.com/t/font_2190622_u9xdue8x2j.eot');
+  src: url('https://at.alicdn.com/t/font_2190622_u9xdue8x2j.eot?#iefix') format('embedded-opentype'),
+  url('https://at.alicdn.com/t/font_2190622_u9xdue8x2j.woff2') format('woff2'),
+  url('https://at.alicdn.com/t/font_2190622_u9xdue8x2j.woff') format('woff'),
+  url('https://at.alicdn.com/t/font_2190622_u9xdue8x2j.ttf') format('truetype'),
+  url('https://at.alicdn.com/t/font_2190622_u9xdue8x2j.svg#iconfont') format('svg');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-chuanglian:before {
+  content: "\e653";
+}
+
+.icon-wendu:before {
+  content: "\e62e";
+}
+
+.icon-deng:before {
+  content: "\e66d";
+}
+
+.icon-taideng:before {
+  content: "\e609";
+}
+
+.icon-app_icons--:before {
+  content: "\e61c";
+}
+
+.icon-humidity:before {
+  content: "\e6f7";
+}
+
+.icon-airCondition:before {
+  content: "\e637";
+}
+

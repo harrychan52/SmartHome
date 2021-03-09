@@ -1,0 +1,137 @@
+@font-face {
+  font-family: 'iconfont';  /* project id 2190622 */
+  src: url('https://at.alicdn.com/t/font_2190622_u9xdue8x2j.eot');
+  src: url('https://at.alicdn.com/t/font_2190622_u9xdue8x2j.eot?#iefix') format('embedded-opentype'),
+  url('https://at.alicdn.com/t/font_2190622_u9xdue8x2j.woff2') format('woff2'),
+  url('https://at.alicdn.com/t/font_2190622_u9xdue8x2j.woff') format('woff'),
+  url('https://at.alicdn.com/t/font_2190622_u9xdue8x2j.ttf') format('truetype'),
+  url('https://at.alicdn.com/t/font_2190622_u9xdue8x2j.svg#iconfont') format('svg');
+}
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-chuanglian:before {
+  content: "\e653";
+}
+.icon-wendu:before {
+  content: "\e62e";
+}
+.icon-deng:before {
+  content: "\e66d";
+}
+.icon-taideng:before {
+  content: "\e609";
+}
+.icon-app_icons--:before {
+  content: "\e61c";
+}
+.icon-humidity:before {
+  content: "\e6f7";
+}
+.icon-airCondition:before {
+  content: "\e637";
+}
+.container {
+	position: relative;
+	padding: 42rpx;
+	font-size: 14px;
+	line-height: 24px;
+}
+.container>._h2 {
+	position: absolute;
+	top: 2rpx;
+}
+.container>image {
+	top: 40rpx;
+	width: 100%;
+	height: 100%;
+}
+.container>.switch{
+	position: absolute;
+	top: 420rpx;
+	width: 700rpx;
+	height: 800rpx;
+}
+.switchBtn{
+	float: left;
+	position: relative;
+	margin: 20rpx 28rpx 0 0;
+	width: 200rpx;
+	height: 290rpx;
+	border: #3B4144 solid 1px;
+	-webkit-border-radius: 20rpx;
+	        border-radius: 20rpx;
+}
+.switchBtn .iconfont{
+	position: absolute;
+	left: 50%;
+	top: 14%;
+	margin-left: -40rpx;
+	font-size: 70rpx;
+}
+button{
+	background: transparent;
+	font-size: 16rpx;
+	top: 60%;
+	width: 100%;
+	height: 30%;
+}
+button::after{ border: none;
+}
+.switchWatch {
+	float: left;
+	position: relative;
+	margin: 20rpx 28rpx 0 0;
+	width: 430rpx;
+	height: 290rpx;
+	border: #3B4144 solid 1px;
+	-webkit-border-radius: 20rpx;
+	        border-radius: 20rpx;
+}
+.watcher{
+	position: relative;
+	width: 33%;
+	height: 290rpx;
+	float: left;
+}
+.watcher .iconfont{
+	position: absolute;
+	left: 50%;
+	top: 40%;
+	margin-left: -28rpx;
+	font-size: 50rpx;
+}
+.watcher .info{
+	position: absolute;
+	left: 50%;
+	top: 15%;
+	margin-left: -28rpx;
+	font-size: 50rpx;
+}
+text {
+	position: absolute;
+	font-size: 14rpx;
+	left: 50%;
+	top: 73%;
+	color: #555555;
+	margin-left: -16rpx;
+}
+.cover {
+	display: block;
+	/* z-index: 2; */
+	position:fixed;
+	left:0;
+	top:0;
+	width:100%;
+	height:100%;
+	background-image: -webkit-radial-gradient(rgba(0,0,0,0) 0%,rgba(0,0,0,0.5) 100%),-webkit-radial-gradient(rgba(0,0,0,0) 33%,rgba(0,0,0,0.3) 166%);
+	background-image: radial-gradient(rgba(0,0,0,0) 0%,rgba(0,0,0,0.5) 100%),radial-gradient(rgba(0,0,0,0) 33%,rgba(0,0,0,0.3) 166%);
+	-webkit-transition:all .25s;
+	transition:all .25s
+}
+
+

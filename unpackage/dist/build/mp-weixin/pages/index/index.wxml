@@ -1,0 +1,37 @@
+<view class="container">
+  <view class="_h2">智能家居</view>
+  <image src="../../static/homePic.jpg" mode="widthFix"></image>
+  <view class="switch">
+    <block wx:for="{{list}}" wx:for-item="item" wx:for-index="index" wx:key="index">
+      <view data-event-opts="{{[['tap',[['inputFocus',[index]]]]]}}" class="switchBtn" bindtap="__e">
+        <view class="{{[item.icon]}}"></view><button type="default"
+          data-event-opts="{{[['tap',[['changeState',[index]]]]]}}"
+          catchtap="__e">{{item.name}}</button><text>{{item.state}}</text>
+      </view>
+    </block>
+    <view class="switchWatch">
+      <block wx:for="{{list2}}" wx:for-item="item" wx:for-index="index" wx:key="index">
+        <view class="watcher">
+          <view class="{{[item.icon]}}"></view><button
+            type="default">{{item.name}}</button><text>{{item.location}}</text>
+        </view>
+      </block>
+    </view>
+  </view>
+  <block wx:for="{{list}}" wx:for-item="item" wx:for-index="index" wx:key="index">
+    <view>
+      <block wx:if="{{item.click}}">
+        <view data-event-opts="{{[['tap',[['inputBlur',[index]]]]]}}" class="cover" bindtap="__e"></view>
+      </block>
+    </view>
+  </block>
+  <block wx:if="{{sliderT}}">
+    <slider block-color="#007AFF" activeColor="#007AFF" show-value="true"></slider>
+  </block>
+  <block wx:if="{{sliderK}}">
+    <view class="sliderK">
+      <slider min="16" max="30" step="1" block-color="#007AFF" activeColor="#007AFF" show-value="true"
+        data-event-opts="{{[['change',[['sliderChange',['$event']]]]]}}" bindchange="__e"></slider>
+    </view>
+  </block>
+</view>
