@@ -3,4 +3,4 @@
 界面：  
 ![image](https://github.com/dwardchan/SmartHome/blob/master/1.png)  
 空调和台灯的调节功能:  
-![image]()
+![image](https://github.com/dwardchan/SmartHome/blob/master/2.gif)
