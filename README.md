@@ -1,4 +1,4 @@
 # SmartHome
 智能家居控制系统（小程序端）课程设计  
 界面：  
-https://github.com/dwardchan/SmartHome/blob/master/1.png
+![image](https://github.com/dwardchan/SmartHome/blob/master/1.png)
