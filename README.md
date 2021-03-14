@@ -17,11 +17,11 @@ var aliyunInfo = {
 在aliyunInfo中填写阿里云三元组信息和订阅发布的topic，然后引入阿里云算法包对其进行解析  
 const aliyunOpt = require('../../utils/aliyun/aliyun_connect.js');  
 然后利用解析后的三元组和host进行mqtt协议的连接  
-let host = 'wxs://' + clientOpt.host;  
+
+                let host = 'wxs://' + clientOpt.host;  
 			this.options.clientId = clientOpt.clientId;  
 			this.options.password = clientOpt.password;  
 			this.options.username = clientOpt.username;  
-			
 			this.client = mqtt.connect(host, this.options);  
 			this.client.on('connect', () => {  
 			  wx.showToast({  
